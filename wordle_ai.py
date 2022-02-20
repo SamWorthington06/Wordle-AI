@@ -85,7 +85,7 @@ def run():
 
         #If there is only one word left, it must be the answer
         if len(answers) == 1:
-            print("Answer:",answers[0].upper())
+            print("\nAnswer:",answers[0].upper())
             break
 
 def get_evaluation_of_guess(answer, word):
